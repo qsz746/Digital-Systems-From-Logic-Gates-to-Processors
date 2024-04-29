@@ -18,3 +18,6 @@ cd "C:\Program Files\Oracle\VirtualBox"
 
 VBoxManage modifyvm Ubuntu2 --nested-hw-virt on
 ```
+What the commands do is to enable Nested VT-x/AMD-V for my Ubuntu vm, Ubuntu2 is the naming of my ubuntu vm
+
+![image](https://github.com/qsz746/Digital-Systems-From-Logic-Gates-to-Processors/assets/55030187/f5fd6d75-00c6-47c5-8a97-1147349ea648)
