@@ -13,9 +13,13 @@ This is a course from coursera
  <br>
   <br>
 so I fixed this issue by runing these commands on windows command prompt
-What the commands do is to enable Nested VT-x/AMD-V for my Ubuntu vm, Ubuntu2 is the naming of my ubuntu vm, if your ubuntu vm has a different naming, you should replace "Ubuntu2" with your own vm name.
+ <br>
 
 ```
+-----What the commands do is to enable Nested VT-x/AMD-V for my Ubuntu vm
+
+-----Ubuntu2 is the naming of my ubuntu vm, if your ubuntu vm has a different naming, you should replace "Ubuntu2" with your own vm name.
+
 cd "C:\Program Files\Oracle\VirtualBox"
 
 VBoxManage modifyvm Ubuntu2 --nested-hw-virt on
